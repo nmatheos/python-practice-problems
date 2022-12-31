@@ -6,9 +6,9 @@ def peep(p, e):
       e (int): second digit
     Returns: True if peep = pp^e, False otherwise
     """
-
-    ### Replace pass with your code
-    pass
+    if (((p*e)*e)*p) == pow((p*p), e):
+        return True
+    return False
 
 
 #############################################################
